@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { fetchPosts } from '../actions/postActions';
 
+//This component renders the list of posts from the jsonplaceholder site
 class Posts extends Component {
 	componentDidMount(){
 		this.props.fetchPosts();
